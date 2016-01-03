@@ -7,3 +7,8 @@ Looking back, this could have been implemented better without the crazy number o
 Comments would've been good to add, too.
 
 One feature I would've liked to add is hiding the encryption key input instead of letting it be typed out and then printing a lot of lines to clear the screen.
+
+**To run:**
+- ```cd src/```
+- ```javac Account.java Email.java Manager.java RunManager.java Template.java```
+- ```java RunManager```
