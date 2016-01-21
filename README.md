@@ -1,4 +1,7 @@
 # Java
+
+![Annotated](https://github.com/SinOverCos/Java---Password-Manager/blob/master/Help.png "Help")
+
 My first Java project; a little choppy.
 
 This is a password manager I made because I keep all my information in a text file but felt that the information could be organized better. I tried to make a command-line interface and it recognizes a few commands, such as add, delete, edit, search, and help, and their arguments.
