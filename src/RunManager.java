@@ -21,7 +21,7 @@ class RunManager {
 	static String welcome = "Welcome to the password manager! Type \"help\" for instructions or Enter to continue. :)\n";
 	static String instructions = "\n\nPassword manager manual:\n\n"
 			+ "When the program starts, you'll be prompted for a file name - please include the extension. If you do not yet have a file, feel free to name a new one.\n"
-			+ "Next (and also before exiting the program), you'll be prompted for a key that is used to polyalphabetically encrypt the contents of your password text file. The key is case-sensitive and this program will not check for your key's validity. If you enter the wrong key to decrypt after encrypting, data will be lost. Editing your password file, encrypted or not, is not recommended.\n"
+			+ "Next (and also before exiting the program), you'll be prompted for a key that is used to polyalphabetically encrypt the contents of your password text file. The key is case-sensitive and this program will not check for your key's validity. If you enter the wrong key to decrypt after encrypting, data will be lost. Editing your password file from outside this program, encrypted or not, is not recommended.\n"
 			+ "Your entries are stored in either the \"em\" (email) list or the \"acc\" (account) list. Each entry will have an index when printed.\n"
 			+ "Email entries have the following fields:   \"address\" \"password\" \"security\" \"addinfo\" \"pastpass\"\n"
 			+ "Account entries have the following fields: \"address\" \"password\" \"security\" \"addinfo\" \"pastpass\" \"user\" \"datecreated\"\n"
