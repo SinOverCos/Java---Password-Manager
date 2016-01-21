@@ -20,8 +20,8 @@ class RunManager {
 	static String NO_NEW_VAL = "THERE IS NO NEW VALUE. LAUNCH THE INTERACTIVE FUNCTION";
 	static String welcome = "Welcome to the password manager! Type \"help\" for instructions or Enter to continue. :)\n";
 	static String instructions = "\n\nPassword manager manual:\n\n"
-			+ "When the program starts, you'll be prompted for a file name - please include the .txt extension. If you do not yet have a file, feel free to name a new one.\n"
-			+ "Next (and also before exiting the program), you'll be prompted for a key that is used to polyalphabetically encrypt the contents of your password text file. The key is case-sensitive and this program will not check for your key's validity. If you enter the wrong key to decrypt after encrypting - you'll have a bad time. Same goes for if you try to edit the text file outside this program. It might be safe to edit the text file if you didn't encrypt, but I still wouldn't recommend it.\n"
+			+ "When the program starts, you'll be prompted for a file name - please include the extension. If you do not yet have a file, feel free to name a new one.\n"
+			+ "Next (and also before exiting the program), you'll be prompted for a key that is used to polyalphabetically encrypt the contents of your password text file. The key is case-sensitive and this program will not check for your key's validity. If you enter the wrong key to decrypt after encrypting, data will be lost. Editing your password file, encrypted or not, is not recommended.\n"
 			+ "Your entries are stored in either the \"em\" (email) list or the \"acc\" (account) list. Each entry will have an index when printed.\n"
 			+ "Email entries have the following fields:   \"address\" \"password\" \"security\" \"addinfo\" \"pastpass\"\n"
 			+ "Account entries have the following fields: \"address\" \"password\" \"security\" \"addinfo\" \"pastpass\" \"user\" \"datecreated\"\n"
@@ -37,7 +37,7 @@ class RunManager {
 			+ "To quicksort:\t\t\tsort <list> <addinfo/email/user/date> user and date are for accounts only.\n"
 			+ "To search:\t\t\tsearch <list> <term>\n"
 			+ "To quit:\t\t\tquit\n"
-			+ "\nIMPORTANT:\t\t\tYOU MUST SAVE WITH THE QUIT FUNCTION OR YOUR DATA WILL NOT SAVE PROPERLY.\n\n";
+			+ "\nIMPORTANT:\t\t\tData is not saved until \"quit\" is called.\n\n";
 	
 	
     public static void main(String[] args) {
